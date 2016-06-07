@@ -1,0 +1,60 @@
+{
+	"files": [
+		{
+			"name": "painter_colored_frag",
+			"files": [
+				"painter-colored.frag.d3d9"
+			],
+			"type": "shader"
+		},
+		{
+			"name": "painter_colored_vert",
+			"files": [
+				"painter-colored.vert.d3d9"
+			],
+			"type": "shader"
+		},
+		{
+			"name": "painter_image_frag",
+			"files": [
+				"painter-image.frag.d3d9"
+			],
+			"type": "shader"
+		},
+		{
+			"name": "painter_image_vert",
+			"files": [
+				"painter-image.vert.d3d9"
+			],
+			"type": "shader"
+		},
+		{
+			"name": "painter_text_frag",
+			"files": [
+				"painter-text.frag.d3d9"
+			],
+			"type": "shader"
+		},
+		{
+			"name": "painter_text_vert",
+			"files": [
+				"painter-text.vert.d3d9"
+			],
+			"type": "shader"
+		},
+		{
+			"name": "painter_video_frag",
+			"files": [
+				"painter-video.frag.d3d9"
+			],
+			"type": "shader"
+		},
+		{
+			"name": "painter_video_vert",
+			"files": [
+				"painter-video.vert.d3d9"
+			],
+			"type": "shader"
+		}
+	]
+}

@@ -1,0 +1,14 @@
+-cp D:\projects\kha\Khashmup\Kha\Sources
+-cp D:\projects\kha\Khashmup\Kha\Backends\Kore
+-cp ..\Sources
+-D no-compilation
+-D sys_windows
+-D sys_g1
+-D sys_g2
+-D sys_g3
+-D sys_g4
+-D sys_a1
+-D sys_a2
+-D kha
+-cpp windows-build\Sources
+-main Main

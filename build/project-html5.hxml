@@ -1,0 +1,13 @@
+-cp D:\projects\kha\Khashmup\Kha\Sources
+-cp D:\projects\kha\Khashmup\Kha\Backends\HTML5
+-cp ..\Sources
+-D sys_g1
+-D sys_g2
+-D sys_g3
+-D sys_g4
+-D sys_a1
+-D sys_a2
+-D sys_html5
+-D kha
+-js html5\kha.js
+-main Main
