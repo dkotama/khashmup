@@ -7,10 +7,11 @@ class Controls {
   public var right: Bool;
   public var up: Bool;
   public var down: Bool;
+  public var shoot: Bool;
 
   public function new() {}
 
-  public function keyDown(key: Key) { 
+  public function keyDown(key: Key, value: String) {  
     switch (key) {
     case LEFT:
       left = true;
@@ -20,12 +21,16 @@ class Controls {
       up = true;
     case DOWN:
       down = true;
+    case CHAR:
+      if (value == "z") {
+        shoot = true;
+      }
     default:
       // no-op
     }
   }
 
-  public function keyUp(key: Key) { 
+  public function keyUp(key: Key, value: String) {
     switch (key) {
     case LEFT:
       left = false;
@@ -35,6 +40,10 @@ class Controls {
       up = false;
     case DOWN:
       down = false;
+    case CHAR:
+      if (value == "z") {
+        shoot = true;
+      }
     default:
       //no-op
     }
